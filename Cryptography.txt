@@ -1,5 +1,7 @@
 Algorithm
 Cryptography.py
+Author: Rashed Al Fuhed
+Date: March 19, 2021
 Goal: Create a program that assists in a basic form of cryptography, a substitution cypher. Write a program that will accept a phrase and convert it into code by substituting letters according to a key.
 INPUT: The user's choice(menu options), text to be coded, and text to be encoded.
 OUTPUT: SECRET DECODER MENU, The encoded text, and the decoded text.
