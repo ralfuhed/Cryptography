@@ -1,0 +1,47 @@
+Algorithm
+Cryptography.py
+Goal: Create a program that assists in a basic form of cryptography, a substitution cypher. Write a program that will accept a phrase and convert it into code by substituting letters according to a key.
+INPUT: The user's choice(menu options), text to be coded, and text to be encoded.
+OUTPUT: SECRET DECODER MENU, The encoded text, and the decoded text.
+
+STEPS:-
+
+STEP1: Create two list of variables that are encoded into one another
+STEP2: Create main function and define it
+STEP3: Initialize keepGoing as true and start with while loop
+STEP4: Create a variable for menu function
+STEP5: Create an if condition and state what to do if true
+STEP6: Create a user input and store into variable
+STEP7: Print out the encrypted text
+STEP8: Create a second if condition and state what to do if true
+STEP9: Create a user input and store into variable
+STEP10: Print out the decrypted text
+STEP11: Create a third and last if condition and state what to do if true
+STEP12: print a response
+STEP13: Initialize keepGoing as false to halt the endless loop.
+STEP14: Create an else statement and state what to do if all of the above is false
+Step15: Print a response
+STEP16: Create and define a menu function
+STEP17: Print out the options
+STEP18: Get a response from the user
+STEP19: Return to that response and pass the function
+STEP20: Create an encode function which will restore the input in the variable "plain"
+STEP21: Make an empty string that we are supposed to encode and call it output
+STEP22: Convert plain to all upper case
+STEP23: Create a for loop for each character in plain variable
+STEP24: Create an if condition and make it equivalent to -1, which means that any special character besides the alpha letters will be ignored
+STEP25: Find the location of that character in alpha and store it in a variable called position
+STEP26: Find the character at that position in key and store it in a variable called newChar
+STEP27: Append the variable "newChar" to output
+STEP28: Return back to the last result result in the loop
+STEP29: Pass the function
+STEP30: Create a decode function and which will restore the input in the variable "coded" (It's basically the reverse of encode function)
+STEP31: Make an empty string that we are supposed to decode called output
+STEP32: convert coded to all upper case
+STEP33: Create a for loop for each character in coded variable
+STEP34: Create an if condition and make it equivalent to -1, which means if there is any special character rather than key letters will be ignored.
+STEP35: Find the location of that character in key and store it in a variable called position.
+STEP36: Find the character at that position in alpha and store it in a variable called newChar.
+STEP37: Append newChar to output.
+STEP38: return to output and pass the function.
+STEP39: Finally, create the function that execute the code through the file that is runinng directly.
