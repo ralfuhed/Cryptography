@@ -1,5 +1,7 @@
 """ Crypto.py
-    Implements a simple cypher"""
+    Implements a simple cypher
+    Author: Rashed Al Fuhed
+    Date: March 19, 2021"""
 
 # Create two list of variables that are encoded into one another
 alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
